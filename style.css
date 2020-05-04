@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  padding: 20px;
+  grid-template-rows: 8.33% 48.98% 8.33%;
+  grid-row-gap: 3%;
+}
+
+
+.sections {
+  font-size: 100%;
+  background: linear-gradient(94.78deg, #1AAFA6 0%, #6C97D7 97.62%);  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  
+}
+
+
+.content {
+  color: #ffffff;
+  text-align: justify;
+  border-radius: 5px 0px 0px 5px;
+  background: linear-gradient(90deg, rgba(255, 64, 133, 0.1) 0%, rgba(91, 64, 255, 0.1) 100%);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.child_content {
+  margin-left: 8.16%;
+  margin-top: 6.25%;
+  margin-right: 8.16%;
+}

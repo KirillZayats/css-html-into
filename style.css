@@ -17,6 +17,7 @@ body {
   grid-template-rows: 1fr 6fr 1fr;
   grid-row-gap: 30px;
   padding: 20px;
+  
 }
 
 .sections {
@@ -228,7 +229,6 @@ body {
   .row_footer {
     margin-top: 0px;
   }
-
 
   .child_content1{
     background: none;
